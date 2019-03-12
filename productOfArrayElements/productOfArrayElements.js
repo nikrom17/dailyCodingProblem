@@ -26,11 +26,6 @@ function arrayProductBrute(n) {
     return productArray;
 }
 
-n = [1];
-m = [3,2,1];
-console.log(arrayProduct(n));
-console.log(arrayProduct(m));
-
 // Unit Tests 
 var expect = require('chai').expect;
 
