@@ -1,7 +1,6 @@
 function firstMissingPositive(nums) {
     if (nums) {
         for (i = 0; i < nums.length; i++) {
-            console.log(nums);
             while (i + 1 != nums[i] && 0 < nums[i] <= nums.length) {
                 val = nums[i];
                 //swap elements
